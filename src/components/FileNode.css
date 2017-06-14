@@ -1,0 +1,39 @@
+.file-node {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    width: 320px;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.file-node:hover {
+    background-color: #4285F4;
+    color: white;
+}
+
+.folder {
+    width: 320px;
+}
+
+.name {
+    overflow: hidden;
+    position: relative;
+}
+.full-name {
+    display: none;
+}
+
+.fa {
+    padding-right: 10px;
+}
+
+.folder-public {
+    color: #bfdbff;
+}
+
+.folder-private {
+    color: #EEA7A0;
+}
